@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<header>
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="index.html">
@@ -36,16 +37,16 @@
                 <a href="join.html" class="btn btn--cta btn--red">Join Now <span class="sr-only">(current)</span></a>
             </div>
 </nav></div>
-        
+</header>
 
 <br>
 <br>
-
+<section>
 <div class="container">
 <div class="row">
 <div class="col-6">
 <h4>Sign in!
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signUpModal">Register Now!</button>
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#signUpModal">Register Now!</button>
 </h4>
 </div>
 <div class="container">
@@ -63,7 +64,7 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Remember me!</label>
   </div>
-  <button type="submit" class="btn btn-primary">Login</button>
+  <button type="submit" class="btn btn btn-info">Login</button>
 </form>
 </div>
 </div></div>
@@ -80,7 +81,17 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <div class="form-group">
+  <div class="form-row">
+    <div class="col-md-6 mb-4">
+      <label for="validationDefault01">First name</label>
+      <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="" required>
+    </div>
+    <div class="col-md-6 mb-4">
+      <label for="validationDefault02">Last name</label>
+      <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
+    </div>
+  </div>
+    <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
@@ -93,16 +104,38 @@
                             <label for="repeatPassword">Repeat Password</label>
                             <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
                         </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="123 Main Street">
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault03">City</label>
+      <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault04">Post Code</label>
+      <input type="text" class="form-control" id="validationDefault04" placeholder="Post Code" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
+</section>
     <br>
     <br>
-
+<section>
 <div class="container">
 <div class="row">
 <div class="col-sm-8">
@@ -132,13 +165,13 @@
     </div>
 </div>
 </div>
-<br
-
-
+</section>
+<br>
+<section>
 <div class="blockquote text-center">
 <div class="container">
   <p class="mb-0"> 
-<h2> Classes </h2>
+<h2 class="display-4"> Classes </h2>
   </p>
   <p>
 WELCOME BACK! WE ARE RUNNING A TEMPORARY RE-OPENING TIMETABLE, DESIGNED TO GET OUR CLASSES MOVING AGAIN POST LOCKDOWN, WHILST MAINTAINING SOCIAL DISTANCING. WE WILL GRADUALLY PHASE OTHER CLASSES BACK IN OVER THE COMING WEEKS. 
@@ -152,7 +185,8 @@ DUE TO SOCIAL DISTANCING, CLASS NUMBERS WILL OF COURSE BE SMALLER THAN USUAL, BU
 THIS IS JUST TEMPORARY FOR THE SAFETY OF OUR MEMBERS AND INSTRUCTORS - WE WILL GET BACK TO NORMAL AS SOON AS POSSIBLE.
 </p>
 </div>
-
+</div>
+</section>
 <br>
 <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
         <div class="container">
