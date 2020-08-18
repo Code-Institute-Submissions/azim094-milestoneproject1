@@ -11,234 +11,238 @@
 </head>
 
 <body>
-<header>
-<div class="container">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHm0X5G7vF76Lb47USOFo4oIOSpN_wyXDdOg&usqp=CAU" width="30" height="30" class="d-inline-block align-top" alt="logo" loading="lazy">
+	<header>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="index.html">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHm0X5G7vF76Lb47USOFo4oIOSpN_wyXDdOg&usqp=CAU" width="30" height="30" class="d-inline-block align-top" alt="logo" loading="lazy">
     CBX GYM
   </a>
- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact Us </a></li>
-                </ul>
-            </div>
-            <div class="d-none d-md-block">
-                <a href="join.html" class="btn btn--cta btn--red">Join Now <span class="sr-only">(current)</span></a>
-            </div>
-</nav></div>
-</header>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">About Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact Us </a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="join.html">Join Now <span class="sr-only">(current)</span></a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+		</div>
+	</header>
 
-<br>
-<br>
-<section>
-<div class="container">
-<div class="row">
-<div class="col-6">
-<h4>Sign in!
-<button type="button" class="btn btn-success" data-toggle="modal" data-target="#signUpModal">Register Now!</button>
-</h4>
-</div>
-<div class="container">
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Remember me!</label>
-  </div>
-  <button type="submit" class="btn btn btn-info">Login</button>
-</form>
-</div>
-</div></div>
-
-
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Sign Up Now</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-  </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-  <div class="form-row">
-    <div class="col-md-6 mb-4">
-      <label for="validationDefault01">First name</label>
-      <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="" required>
-    </div>
-    <div class="col-md-6 mb-4">
-      <label for="validationDefault02">Last name</label>
-      <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
-    </div>
-  </div>
-    <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-                        </div>
-  <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="123 Main Street">
-  </div>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationDefault03">City</label>
-      <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="validationDefault04">Post Code</label>
-      <input type="text" class="form-control" id="validationDefault04" placeholder="Post Code" required>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-      <label class="form-check-label" for="invalidCheck2">
-        Agree to terms and conditions
-      </label>
-    </div>
-  </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    <br>
-<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-6">
-				<img src="https://social.xercise4less.co.uk/wp-content/uploads/2019/12/group-fitness-christmas-dinner-blog-shutterstock_237893953.jpg" class="img-fluid" alt="Responsive image">
-</div>
+	<br>
+	<br>
+	<section>
+		<div class="container">
+			<div class="row">
 				<div class="col-6">
-					<img src="https://dailyburn.com/life/wp-content/uploads/2015/03/Fitness-Class-Tweaks_2.jpg" class="img-fluid" alt="Responsive image">
-</div>
+					<h4>Sign in!
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#signUpModal">Register Now!</button>
+					</h4>
+				</div>
+				<div class="container">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1">Remember me!</label>
+							</div>
+							<button type="submit" class="btn btn btn-info">Login</button>
+					</form>
 				</div>
 			</div>
-</section>
-<br>
-<section>
-	<div class="blockquote text-center">
-		<div class="container">
-			<p class="mb-0">
-				<h2 class="display-4"> Classes </h2>
-			</p>
-			<p>
-				WELCOME BACK! WE ARE RUNNING A TEMPORARY RE-OPENING TIMETABLE, DESIGNED TO GET OUR CLASSES MOVING AGAIN
-				POST LOCKDOWN, WHILST MAINTAINING SOCIAL DISTANCING. WE WILL GRADUALLY PHASE OTHER CLASSES BACK IN OVER
-				THE COMING WEEKS.
-			</p>
-
-			<p>
-				DUE TO SOCIAL DISTANCING, CLASS NUMBERS WILL OF COURSE BE SMALLER THAN USUAL, BUT BECAUSE OUR STUDIOS
-				ARE SO LARGE, WE CAN STILL CATER FOR LOTS OF PEOPLE. ALL CLASSES WILL RUN ON A FIRST COME, FIRST SERVE
-				BASIS. SEE YOU THERE!
-			</p>
-
-			<p>
-				THIS IS JUST TEMPORARY FOR THE SAFETY OF OUR MEMBERS AND INSTRUCTORS - WE WILL GET BACK TO NORMAL AS
-				SOON AS POSSIBLE.
-			</p>
 		</div>
-	</div>
-	<div class="container">
-		<table class="table table-striped table-dark">
-			<thead>
-				<tr>
-					<th scope="col">Time</th>
-					<th scope="col">Monday</th>
-					<th scope="col">Tuesday</th>
-					<th scope="col">Wednesday</th>
-					<th scope="col">Thursday</th>
-					<th scope="col">Friday</th>
-					<th scope="col">Saturday</th>
 
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th scope="row">16:00-17:00</th>
-					<td>BJJ openmat</td>
-					<td>BJJ openmat</td>
-					<td>Kids MMA</td>
-					<td>BJJ openmat</td>
-					<td>BJJ openmat</td>
-					<td>Ladies only MMA</td>
-				</tr>
-				<tr>
-					<th scope="row">17:00-18:00</th>
-					<td>MMA classes</td>
-					<td>BJJ classes</td>
-					<td>MMA classes</td>
-					<td>BJJ classes</td>
-					<td>MMA classes</td>
-					<td>Kids MMA</td>
-				</tr>
-				<tr>
-					<th scope="row">18:00-19:00</th>
-					<td>Wrestling classes</td>
-					<td>Kickboxing classes</td>
-					<td>Kickboxing for kids</td>
-					<td>Boxing classes</td>
-					<td>JKD/ Kali</td>
-					<td>Fight team only</td>
-				</tr>
-				<tr>
-					<th scope="row">19:00-20:30</th>
-					<td>Kids BJJ</td>
-					<td>Private classes</td>
-					<td>Fight team only</td>
-					<td>Wrestling</td>
-					<td>BJJ classes</td>
-					<td>Open mat</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-</section>
-<br>
- <footer
-      class="section footer-classic context-dark bg-image"
-      style="background: #2d3246;"
-    >
-      <div class="container">
-        <blockquote class="blockquote text-center">
-          <div class="col">
-            ©2020 CBX GYM
-          </div>
-        </blockquote>
-      </div>
-    </footer>
+
+		<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Sign Up Now</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+  </button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-row">
+								<div class="col-md-6 mb-4">
+									<label for="validationDefault01">First name</label>
+									<input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="" required>
+    </div>
+									<div class="col-md-6 mb-4">
+										<label for="validationDefault02">Last name</label>
+										<input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
+    </div>
+									</div>
+									<div class="form-group">
+										<label for="exampleInputEmail1">Email address</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+										<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+									</div>
+									<div class="form-group">
+										<label for="password">Password</label>
+										<input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+										<div class="form-group">
+											<label for="repeatPassword">Repeat Password</label>
+											<input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+											<div class="form-group">
+												<label for="inputAddress">Address</label>
+												<input type="text" class="form-control" id="inputAddress" placeholder="123 Main Street">
+  </div>
+												<div class="form-row">
+													<div class="col-md-6 mb-3">
+														<label for="validationDefault03">City</label>
+														<input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+    </div>
+														<div class="col-md-6 mb-3">
+															<label for="validationDefault04">Post Code</label>
+															<input type="text" class="form-control" id="validationDefault04" placeholder="Post Code" required>
+    </div>
+														</div>
+														<div class="form-group">
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+																<label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+															</div>
+														</div>
+														<button type="submit" class="btn btn-success">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<img src="https://social.xercise4less.co.uk/wp-content/uploads/2019/12/group-fitness-christmas-dinner-blog-shutterstock_237893953.jpg" class="img-fluid" alt="Responsive image">
+</div>
+					<div class="col-6">
+						<img src="https://dailyburn.com/life/wp-content/uploads/2015/03/Fitness-Class-Tweaks_2.jpg" class="img-fluid" alt="Responsive image">
+</div>
+					</div>
+				</div>
+	</section>
+	<br>
+	<section>
+		<div class="blockquote text-center">
+			<div class="container">
+				<p class="mb-0">
+					<h2 class="display-4"> Classes </h2>
+				</p>
+				<p>
+					WELCOME BACK! WE ARE RUNNING A TEMPORARY RE-OPENING TIMETABLE, DESIGNED TO GET OUR CLASSES MOVING
+					AGAIN
+					POST LOCKDOWN, WHILST MAINTAINING SOCIAL DISTANCING. WE WILL GRADUALLY PHASE OTHER CLASSES BACK IN
+					OVER
+					THE COMING WEEKS.
+				</p>
+
+				<p>
+					DUE TO SOCIAL DISTANCING, CLASS NUMBERS WILL OF COURSE BE SMALLER THAN USUAL, BUT BECAUSE OUR
+					STUDIOS
+					ARE SO LARGE, WE CAN STILL CATER FOR LOTS OF PEOPLE. ALL CLASSES WILL RUN ON A FIRST COME, FIRST
+					SERVE
+					BASIS. SEE YOU THERE!
+				</p>
+
+				<p>
+					THIS IS JUST TEMPORARY FOR THE SAFETY OF OUR MEMBERS AND INSTRUCTORS - WE WILL GET BACK TO NORMAL AS
+					SOON AS POSSIBLE.
+				</p>
+			</div>
+		</div>
+		<div class="container">
+			<table class="table table-striped table-dark">
+				<thead>
+					<tr>
+						<th scope="col">Time</th>
+						<th scope="col">Monday</th>
+						<th scope="col">Tuesday</th>
+						<th scope="col">Wednesday</th>
+						<th scope="col">Thursday</th>
+						<th scope="col">Friday</th>
+						<th scope="col">Saturday</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">16:00-17:00</th>
+						<td>BJJ openmat</td>
+						<td>BJJ openmat</td>
+						<td>Kids MMA</td>
+						<td>BJJ openmat</td>
+						<td>BJJ openmat</td>
+						<td>Ladies only MMA</td>
+					</tr>
+					<tr>
+						<th scope="row">17:00-18:00</th>
+						<td>MMA classes</td>
+						<td>BJJ classes</td>
+						<td>MMA classes</td>
+						<td>BJJ classes</td>
+						<td>MMA classes</td>
+						<td>Kids MMA</td>
+					</tr>
+					<tr>
+						<th scope="row">18:00-19:00</th>
+						<td>Wrestling classes</td>
+						<td>Kickboxing classes</td>
+						<td>Kickboxing for kids</td>
+						<td>Boxing classes</td>
+						<td>JKD/ Kali</td>
+						<td>Fight team only</td>
+					</tr>
+					<tr>
+						<th scope="row">19:00-20:30</th>
+						<td>Kids BJJ</td>
+						<td>Private classes</td>
+						<td>Fight team only</td>
+						<td>Wrestling</td>
+						<td>BJJ classes</td>
+						<td>Open mat</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	<br>
+	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+		<div class="container">
+			<blockquote class="blockquote text-center">
+				<div class="col">
+					©2020 CBX GYM
+				</div>
+			</blockquote>
+		</div>
+	</footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
