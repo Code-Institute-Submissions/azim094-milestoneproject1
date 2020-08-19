@@ -1,41 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap:100,200,300,400,500,600,700");
 
-body{
-        font-family: 'Raleway', sans-serif;
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+[tabindex="-1"]:focus {
+  outline: 0 !important ;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 /*-------------------Navbar----------------------*/
 
 .nav-item a {
-    display: block;
-    color: white;
+  display: block;
+  color: white;
 }
 .nav-item a:hover,
 .nav-item-active {
-    background-color: #D3D3D3;
-    color: #0076E8;
+  background-color: #d3d3d3;
+  color: #0076e8;
 }
 .navbar-brand {
-    color: white;
-    font: bolder;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 1.75em;
+  color: white;
+  font: bolder;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.75em;
 }
 .navbar-brand:hover {
-    color: #0076E8;
+  color: #0076e8;
 }
 .navbar-toggler {
-    width: 2.5em;
-    height: 2.125em;
-    background-color: #D3D3D3;
+  width: 2.5em;
+  height: 2.125em;
+  background-color: #d3d3d3;
 }
 .navbar-toggler-icon {
-    width: 100%;
-    float: right;
-    height: 0.0625em;
-    background-color: black;
-    margin-bottom: 0.0625em;
+  width: 100%;
+  float: right;
+  height: 0.0625em;
+  background-color: black;
+  margin-bottom: 0.0625em;
+}
+
+a:hover {
+color : #0056b3;
+text-decoration : underline;
 }
 
 /*-------------------End Navbar----------------------*/
+
+.blockquote.text-center {
+display : block;
+font-size : 80%;
+color : #ffffff;
+}
