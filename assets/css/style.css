@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap:100,200,300,400,500,600,700');
 
-header{
-    margin: 0;
+body{
+        font-family: 'Raleway', sans-serif;
 }
 
+/*-------------------Navbar----------------------*/
+
+.nav-item a {
+    display: block;
+    color: white;
+}
+.nav-item a:hover,
+.nav-item-active {
+    background-color: #D3D3D3;
+    color: #0076E8;
+}
+.navbar-brand {
+    color: white;
+    font: bolder;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.75em;
+}
+.navbar-brand:hover {
+    color: #0076E8;
+}
+.navbar-toggler {
+    width: 2.5em;
+    height: 2.125em;
+    background-color: #D3D3D3;
+}
+.navbar-toggler-icon {
+    width: 100%;
+    float: right;
+    height: 0.0625em;
+    background-color: black;
+    margin-bottom: 0.0625em;
+}
+
+/*-------------------End Navbar----------------------*/
